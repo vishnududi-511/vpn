@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    transition: all 200ms linear;
+}
+
+.container {
+    max-width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+
+:root {
+    --ff-poppins: "poppins", sans-serif;
+    --ff-roboto: "Roboto", sans-serif;
+    --ff-roboto: "Rubik", sans-serif;
+    --font-size-12: 12px;
+    --font-size-14: 14px;
+    --font-size-16: 16px;
+    --font-size-18: 18px;
+    --font-size-20: 20px;
+    --font-size-26: 26px;
+    --font-size-24: 24px;
+    --font-size-30: 30px;
+    --font-size-34: 34px;
+    --font-size-36: 36px;
+    --font-size-48: 48px;
+
+    --font-weight-sm: 400;
+    --font-weight-md: 500;
+    --font-weight-lg: 600;
+    --font-weight-xl: 700;
+    --font-weight-xxl: 800;
+
+    --color-black: black;
+    --color-white: white;
+    --color-1A9-lgblue: #1A9FFF;
+    --form-control-color: rebeccapurple;
+    --color-0099: #00000099;
+    --color-001A: #0000001A;
+    --color-0033: #00000033;
+    --color-0014: #00000014;
+    --color-FAFA: #FAFAFA;
+    --color-red: red;
+    --color-red-f42: #F4241E;
+    --color-red-f538: #F53855;
+    --color-F6E3: #F6E300;
+    --color-yellow-FFF03: #FFF03F;
+    --color-darkblue: #0B132A;
+    --color-lightgrey: #4F5665;
+    --color-border-white: #EEEFF2;
+    --color-white-fbfb: #FBFBFB;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-space-btw {
+    justify-content: space-between;
+}
+
+.justify-content-space-even {
+    justify-content: space-evenly;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.flex-direction-col {
+    flex-direction: column;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+.nav-font-1 {
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-md);
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-darkblue);
+}
+
+.nav-font-2 {
+    font-family: Rubik;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-lightgrey);
+}
+
+.vpn {
+    font-family: Rubik;
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-xl);
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-darkblue);
+}
+
+.lasles {
+    font-family: Rubik;
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-md);
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-darkblue);
+}
+
+.sign-up {
+    padding: 11px 35px 11px 35px;
+    border-radius: 50px;
+    border: 1px solid var(--color-red-f538);
+    background: var(--color-white);
+    font-family: Rubik;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-md);
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-red-f538);
+    cursor: pointer;
+}
+
+.sign-up:hover {
+    background: var(--color-red-f538);
+    color: var(--color-white);
+}
+
+.sign-in:hover {
+    color: red;
+}
+
+.nav-font-2:hover {
+    color: red;
+}
+
+.sign-in {
+    font-family: Rubik;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: var(--color-darkblue);
+    text-align: left;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-30 {
+    gap: 30px
+}
+
+.position-relative {
+    position: relative;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.nav-bar {
+    position: fixed;
+    padding: 10px 0;
+}
+
+.get-started {
+    padding: 18px 78px;
+    background: var(--color-red-f538);
+    color: var(--color-white);
+    border: 1px solid var(--color-red-f538);
+    border-radius: 10px;
+    box-shadow: rgb(162 6 6) 0px 22px 39px -19px, rgb(156 54 54 / 0%) 0px 30px 60px -30px;
+    font-family: Rubik;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-xl);
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+
+}
+
+.get-started:hover {
+    color: var(--color-red-f538);
+    background-color: var(--color-white);
+}
+
+.section-2 {
+    padding-top: 100px;
+}
+
+.heading {
+    font-family: Rubik;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-darkblue);
+}
+
+.laslesvpn-1 {
+    font-family: Rubik;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-darkblue);
+}
+
+.laslesvpn-2 {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-lightgrey);
+}
+
+.sec-2-para-1 {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-lightgrey);
+}
+
+.over-flow-img {
+    position: absolute;
+    right: 5%;
+}
+
+.info-box {
+    padding: 38px 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+}
+
+.info-font-1 {
+    font-family: Rubik;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-darkblue);
+}
+
+.info-font-2 {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-lightgrey);
+}
+
+.border-right-1 {
+    border-right: 2px solid var(--color-border-white);
+}
+
+.border-right-2 {
+    border-right: 2px solid var(--color-border-white);
+}
+
+.mt-90 {
+    margin-top: 90px;
+}
+
+.py-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.gap-35 {
+    gap: 35px;
+}
+
+.w-33 {
+    width: 33.33%;
+}
+
+.sec-3-font-1 {
+    font-family: Rubik;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-darkblue);
+    max-width: 383px;
+}
+
+.sec-3-font-2 {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-lightgrey);
+    max-width: 428px;
+}
+
+.sec-3-font-3 {
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-lightgrey);
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+/* sec-4 */
+.sec-4-bg-color {
+    background: var(--color-white-fbfb);
+}
+
+@media (max-width : 768px) {
+    .md-w-50 {
+        width: 50%;
+    }
+
+    .border-right-2 {
+        border: unset;
+    }
+}
+
+@media (max-width : 576px) {
+    .sm-w-100 {
+        width: 100%;
+    }
+
+    .border-right-1 {
+        border: unset;
+    }
+}
