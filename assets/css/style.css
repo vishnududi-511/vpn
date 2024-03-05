@@ -79,6 +79,7 @@
     --color-border-white: #EEEFF2;
     --color-white-fbfb: #FBFBFB;
     --color-white-dddd: #DDDDDD;
+    --color-white-DDE0: #DDE0E4;
 }
 
 .d-flex {
@@ -126,6 +127,7 @@
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
+    position: relative;
     color: var(--color-lightgrey);
 }
 
@@ -567,7 +569,365 @@
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
 /* sec-6 */
+.sec-6-heading {
+    font-family: Rubik;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--color-darkblue);
+    max-width: 447px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sec-6-para {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--color-lightgrey);
+    max-width: 555px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.justify-content-flex-end {
+    justify-content: flex-end;
+}
+
+/* slider */
+
+.box {
+    border: 2px solid #DDDDDD;
+    min-width: 200px !important;
+    height: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+
+.d-flex {
+    display: flex;
+}
+
+.slick-para-3 {
+    padding-top: 10px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-darkblue);
+}
+
+.slick-slide.slick-current div .box {
+    border: 2px solid #F53838;
+}
+
+.prev {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid #F53838;
+    background: white;
+    cursor: pointer;
+    transition: all 200ms linear;
+}
+
+.next {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid #F53838;
+    background: white;
+    cursor: pointer;
+    transition: all 200ms linear;
+}
+
+.next:hover {
+    background-color: #F53838;
+
+}
+
+.next:hover path {
+    fill: white;
+}
+
+.prev:hover {
+    background-color: #F53838;
+
+}
+
+.prev:hover path {
+    fill: white;
+}
+
+.slick-dots li button:before {
+    display: none;
+}
+
+.slick-dots li {
+    background-color: var(--color-white-DDE0);
+    border-radius: 50%;
+}
+
+.slick-dots .slick-active {
+    width: 45px;
+    background-color: var(--color-red-f538);
+    border-radius: 10px;
+}
+
+.slick-dots {
+    display: flex;
+    margin-top: 10px;
+    bottom: -50px;
+}
+
+.slick-arrow-buttons {
+    position: relative;
+    bottom: 20px;
+    display: none;
+}
+
+
+.gap-15 {
+    gap: 15px;
+}
+
+.nav-font-2::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #F4241E;
+    transition: all 200ms linear;
+}
+
+.nav-font-2:hover::before {
+    width: 100%;
+}
+
+.slick-box-heading {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: var(--color-darkblue);
+}
+
+.slick-box-address {
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: var(--color-lightgrey);
+}
+
+.svg-no {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-darkblue);
+}
+
+.slick-slide {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.slick-list {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.over-slider {
+    z-index: 2;
+}
+
+.slick-list {
+    overflow: visible;
+    padding: 0 20% 0 0;
+    position: relative;
+}
+
+.slick-list::after {
+    content: ' ';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 4000px;
+    right: 100%;
+    background-color: white;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.flex-direction-col-unset {
+    flex-direction: column;
+}
+
+.justify-content-right-unset {
+    justify-content: right;
+}
+
+.mb-90 {
+    margin-bottom: 90px;
+}
+
+/* subscription-box */
+
+.subscription-box {
+    background-color: var(--color-white);
+    padding: 70px 58px 70px 58px;
+}
+
+.s-box-heading {
+    font-family: Rubik;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-darkblue);
+}
+
+.s-box-para {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-lightgrey);
+}
+
+@media (min-width:992px) {
+    .slick-box-heading {
+        font-family: Rubik;
+        font-size: 18px !important;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: var(--color-darkblue);
+    }
+
+    .slick-box-address {
+        font-family: Rubik;
+        font-size: 14px !important;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: var(--color-lightgrey);
+    }
+
+    .slick-para-3 {
+        padding-top: 10px;
+        font-family: Rubik;
+        font-size: 16px !important;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-darkblue);
+    }
+}
+
+@media (min-width:768px) {
+    .slick-box-heading {
+        font-family: Rubik;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: var(--color-darkblue);
+    }
+
+    .slick-box-address {
+        font-family: Rubik;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: var(--color-lightgrey);
+    }
+
+    .slick-para-3 {
+        padding-top: 10px;
+        font-family: Rubik;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-darkblue);
+    }
+
+
+}
+
+@media (min-width:576px) {
+    .slick-box-heading {
+        font-family: Rubik;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: var(--color-darkblue);
+    }
+
+    .slick-box-address {
+        font-family: Rubik;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: var(--color-lightgrey);
+    }
+
+    .slick-para-3 {
+        padding-top: 10px;
+        font-family: Rubik;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-darkblue);
+    }
+
+    .slick-arrow-buttons {
+        display: flex;
+    }
+
+    .box {
+        padding: 30px;
+    }
+
+    .flex-direction-col-unset {
+        flex-direction: unset;
+    }
+
+    .justify-content-right-unset {
+        justify-content: unset;
+    }
+}
 
 @media (max-width : 768px) {
     .md-w-50 {
