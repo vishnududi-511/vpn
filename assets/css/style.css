@@ -31,8 +31,32 @@
     padding-left: 12px;
 }
 
+.col-5 {
+    width: 41.66%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.col-2 {
+    width: 16.67%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
 .col-4 {
     width: 33.33%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.col-8 {
+    width: 66.66%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.col-3 {
+    width: 25%;
     padding-right: 12px;
     padding-left: 12px;
 }
@@ -80,6 +104,9 @@
     --color-white-fbfb: #FBFBFB;
     --color-white-dddd: #DDDDDD;
     --color-white-DDE0: #DDE0E4;
+    --color-grey-AFB5: #AFB5C0;
+    --color-grey-F8F8: #F8F8F8;
+
 }
 
 .d-flex {
@@ -209,13 +236,24 @@
     margin-top: 20px;
 }
 
+.mt-10 {
+    margin-top: 10px;
+}
+
 .mb-50 {
     margin-bottom: 50px;
+}
+
+.mt-100 {
+    margin-top: 100px;
 }
 
 .nav-bar {
     position: fixed;
     padding: 10px 0;
+    background-color: var(--color-white);
+    z-index: 5;
+    box-shadow: 0px 4px 35px 0px #00000014;
 }
 
 .get-started {
@@ -285,7 +323,7 @@
 
 .over-flow-img {
     position: absolute;
-    right: 5%;
+    right: -15%;
 }
 
 .info-box {
@@ -406,6 +444,9 @@
     letter-spacing: 0em;
     text-align: center;
     color: var(--color-lightgrey);
+    max-width: 653px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .plan-box {
@@ -548,9 +589,17 @@
     letter-spacing: 0em;
     text-align: center;
     color: var(--color-lightgrey);
-    max-width: 555px;
+    max-width: 627px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.pt-80 {
+    padding-top: 80px;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
 }
 
 .overflow-auto {
@@ -791,11 +840,19 @@
     margin-bottom: 90px;
 }
 
+.pb-20 {
+    padding-bottom: 20px;
+}
+
 /* subscription-box */
 
 .subscription-box {
     background-color: var(--color-white);
     padding: 70px 58px 70px 58px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    position: relative;
+    bottom: -125px;
 }
 
 .s-box-heading {
@@ -806,6 +863,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: var(--color-darkblue);
+    max-width: 370px;
 }
 
 .s-box-para {
@@ -816,6 +874,120 @@
     letter-spacing: 0em;
     text-align: left;
     color: var(--color-lightgrey);
+
+}
+
+.subscribe-now {
+    padding: 18px 78px;
+    background: var(--color-red-f538);
+    color: var(--color-white);
+    border: 1px solid var(--color-red-f538);
+    border-radius: 10px;
+    box-shadow: rgb(162 6 6) 0px 22px 39px -19px, rgb(156 54 54 / 0%) 0px 30px 60px -30px;
+    font-family: Rubik;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-xl);
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+}
+
+.subscribe-now:hover {
+
+    background-color: var(--color-white);
+    color: var(--color-red-f42);
+}
+
+/* footer */
+.footer-padding-t-180 {
+    padding-top: 180px;
+}
+
+.footer-bg-color {
+    background: var(--color-grey-F8F8);
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.footer-vpn {
+    font-family: Rubik;
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-xl);
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-darkblue);
+}
+
+.footer-lasles {
+    font-family: Rubik;
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-md);
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-darkblue);
+}
+
+.footer-laslesvpn {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: var(--color-lightgrey);
+}
+
+.footer-para-1 {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-lightgrey);
+    max-width: 340px;
+}
+
+.copyright {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: var(--color-grey-AFB5);
+}
+
+.copyright-vpn {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: var(--color-grey-AFB5);
+}
+
+.footer-link-font-2 {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-lightgrey);
+}
+
+.footer-link-font-1 {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-darkblue);
 }
 
 @media (min-width:992px) {
