@@ -38,3 +38,10 @@ $('.sliderbox').slick({
         // instead of a settings object
     ]
 });
+
+let navitem = document.querySelector(".navitems");
+let menuicon = document.querySelector(".menubox");
+
+menuicon.addEventListener("click", function () {
+    navitem.classList.toggle("show")
+})
