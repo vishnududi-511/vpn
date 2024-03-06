@@ -143,6 +143,10 @@
     gap: 40px;
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
+
 .nav-font-1 {
     font-family: "Rubik", sans-serif;
     font-size: var(--font-size-16);
@@ -340,6 +344,10 @@
     padding: 38px 0;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 10px;
+}
+
+.info-box-lite {
+    width: 205px;
 }
 
 .info-font-1 {
@@ -735,12 +743,11 @@
 .slick-dots {
     display: flex;
     margin-top: 10px;
-    bottom: -50px;
+    bottom: -70px;
+    width: 50%;
 }
 
 .slick-arrow-buttons {
-    position: relative;
-    bottom: 20px;
     display: none;
 }
 
@@ -864,8 +871,6 @@
     padding: 15px 14px 15px 14px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 10px;
-    position: relative;
-    bottom: -125px;
 }
 
 .s-box-heading {
@@ -912,8 +917,8 @@
 }
 
 /* footer */
-.footer-padding-t-180 {
-    padding-top: 180px;
+.footer-padding-t-20 {
+    padding-top: 20px;
 }
 
 .footer-bg-color {
@@ -1007,6 +1012,15 @@
 
 .sign-items {
     display: none;
+}
+
+.py-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section-gradient {
+    background: linear-gradient(0deg, rgba(248, 248, 248, 1) 50%, rgba(255, 255, 255, 1) 50%);
 }
 
 @media (min-width:1200px) {
@@ -1146,7 +1160,6 @@
         padding-right: 12px;
         padding-left: 12px;
     }
-
 
     .md-mb-90 {
         margin-bottom: 90px;
@@ -1293,6 +1306,10 @@
         padding-left: 12px;
     }
 
+    .info-box-lite {
+        width: unset;
+    }
+
     .sec-6-para {
         font-family: Rubik;
         font-size: 16px;
@@ -1380,8 +1397,6 @@
         padding: 70px 58px 70px 58px;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         border-radius: 10px;
-        position: relative;
-        bottom: -125px;
     }
 
     .subscribe-now {
@@ -1550,6 +1565,25 @@
 
     .border-right-1 {
         border: unset;
+    }
+
+    .slick-dots {
+        left: 0;
+        display: flex;
+        margin-top: 10px;
+        bottom: -27px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .slick-dots li {
+        font-size: 0;
+        line-height: 0;
+        display: block;
+        width: 10px;
+        height: 10px;
+        padding: 5px;
+
     }
 
     .heading {

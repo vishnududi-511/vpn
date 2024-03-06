@@ -6,6 +6,7 @@ $('.sliderbox').slick({
     prevArrow: ".prev",
     slidesToShow: 2,
     slidesToScroll: 1,
+    autoplay: false,
     infinite: true,
     responsive: [
         {
