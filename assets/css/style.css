@@ -79,10 +79,15 @@
     --font-size-20: 20px;
     --font-size-26: 26px;
     --font-size-24: 24px;
+    --font-size-25: 25px;
+    --font-size-28: 28px;
     --font-size-30: 30px;
     --font-size-34: 34px;
+    --font-size-35: 35px;
     --font-size-36: 36px;
+    --font-size-40: 40px;
     --font-size-48: 48px;
+    --font-size-50: 50px;
 
     --font-weight-sm: 400;
     --font-weight-md: 500;
@@ -158,7 +163,7 @@
 }
 
 .nav-font-2 {
-    font-family: Rubik;
+    font-family: "Rubik", sans-serif;
     font-size: var(--font-size-16);
     font-weight: var(--font-weight-sm);
     line-height: 19px;
@@ -169,7 +174,7 @@
 }
 
 .vpn {
-    font-family: Rubik;
+    font-family: "Rubik", sans-serif;
     font-size: var(--font-size-20);
     font-weight: var(--font-weight-xl);
     line-height: 24px;
@@ -179,7 +184,7 @@
 }
 
 .lasles {
-    font-family: Rubik;
+    font-family: "Rubik", sans-serif;
     font-size: var(--font-size-20);
     font-weight: var(--font-weight-md);
     line-height: 24px;
@@ -193,7 +198,7 @@
     border-radius: 50px;
     border: 1px solid var(--color-red-f538);
     background: var(--color-white);
-    font-family: Rubik;
+    font-family: "Rubik", sans-serif;
     font-size: var(--font-size-16);
     font-weight: var(--font-weight-md);
     line-height: 19px;
@@ -219,7 +224,7 @@
 }
 
 .sign-in {
-    font-family: Rubik;
+    font-family: "Rubik", sans-serif;
     font-size: var(--font-size-16);
     font-weight: var(--font-weight-sm);
     line-height: 19px;
@@ -267,7 +272,7 @@
     padding: 10px 0;
     background-color: var(--color-white);
     z-index: 5;
-    box-shadow: 0px 4px 35px 0px #00000014;
+    /* box-shadow: 0px 4px 35px 0px #00000014; */
 }
 
 .get-started {
@@ -277,7 +282,7 @@
     border: 1px solid var(--color-red-f538);
     border-radius: 10px;
     box-shadow: rgb(162 6 6) 0px 22px 39px -19px, rgb(156 54 54 / 0%) 0px 30px 60px -30px;
-    font-family: Rubik;
+    font-family: "Rubik", sans-serif;
     font-size: var(--font-size-14);
     font-weight: var(--font-weight-xl);
     line-height: 25px;
@@ -296,9 +301,9 @@
 }
 
 .heading {
-    font-family: Rubik;
-    font-size: 50px;
-    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-50);
+    font-weight: var(--font-weight-md);
     line-height: 70px;
     letter-spacing: 0em;
     text-align: left;
@@ -306,9 +311,9 @@
 }
 
 .laslesvpn-1 {
-    font-family: Rubik;
-    font-size: 50px;
-    font-weight: 700;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-50);
+    font-weight: var(--font-weight-xl);
     line-height: 70px;
     letter-spacing: 0em;
     text-align: left;
@@ -316,18 +321,18 @@
 }
 
 .laslesvpn-2 {
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-md);
     line-height: 30px;
     letter-spacing: 0em;
     color: var(--color-lightgrey);
 }
 
 .sec-2-para-1 {
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
@@ -351,9 +356,9 @@
 }
 
 .info-font-1 {
-    font-family: Rubik;
-    font-size: 25px;
-    font-weight: 700;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-25);
+    font-weight: var(--font-weight-xl);
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
@@ -361,9 +366,9 @@
 }
 
 .info-font-2 {
-    font-family: Rubik;
-    font-size: 20px;
-    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-sm);
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
@@ -400,9 +405,9 @@
 }
 
 .sec-3-font-1 {
-    font-family: Rubik;
-    font-size: 35px;
-    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-35);
+    font-weight: var(--font-weight-md);
     line-height: 45px;
     letter-spacing: 0em;
     text-align: left;
@@ -411,9 +416,9 @@
 }
 
 .sec-3-font-2 {
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
@@ -422,9 +427,9 @@
 }
 
 .sec-3-font-3 {
-    font-family: Rubik;
-    font-size: 14px;
-    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-sm);
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
@@ -441,9 +446,9 @@
 }
 
 .sec-4-heading {
-    font-family: Rubik;
-    font-size: 35px;
-    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-35);
+    font-weight: var(--font-weight-md);
     line-height: 50px;
     letter-spacing: 0em;
     text-align: center;
@@ -451,9 +456,9 @@
 }
 
 .sec-4-para-1 {
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
@@ -491,9 +496,9 @@
 } */
 
 .free-plan {
-    font-family: Rubik;
-    font-size: 18px;
-    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-18);
+    font-weight: var(--font-weight-md);
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
@@ -501,9 +506,9 @@
 }
 
 .plan-box-font-1 {
-    font-family: Rubik;
-    font-size: 14px;
-    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-sm);
     line-height: 28px;
     letter-spacing: 0em;
     color: var(--color-lightgrey);
@@ -518,9 +523,9 @@
 }
 
 .free {
-    font-family: Rubik;
-    font-size: 25px;
-    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-25);
+    font-weight: var(--font-weight-md);
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
@@ -534,9 +539,9 @@
     color: var(--color-red-f538);
     background: var(--color-white);
 
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 700;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-xl);
     line-height: 19px;
     letter-spacing: 0px;
     text-align: left;
@@ -568,9 +573,9 @@
 }
 
 .month-font-1 {
-    font-family: Rubik;
-    font-size: 25px;
-    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-25);
+    font-weight: var(--font-weight-md);
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
@@ -578,9 +583,9 @@
 }
 
 .month-font-2 {
-    font-family: Rubik;
-    font-size: 25px;
-    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-25);
+    font-weight: var(--font-weight-sm);
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
@@ -593,9 +598,9 @@
 }
 
 .sec-5-heading {
-    font-family: Rubik;
-    font-size: 20px;
-    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-md);
     line-height: 36px;
     letter-spacing: 0em;
     text-align: center;
@@ -603,9 +608,9 @@
 }
 
 .sec-5-para-1 {
-    font-family: Rubik;
-    font-size: 14px;
-    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-sm);
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
@@ -639,18 +644,18 @@
 
 /* sec-6 */
 .sec-6-heading {
-    font-family: Rubik;
-    font-size: 20px;
-    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-md);
     letter-spacing: 0em;
     color: var(--color-darkblue);
 
 }
 
 .sec-6-para {
-    font-family: Rubik;
-    font-size: 14px;
-    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-sm);
     line-height: 25px;
     letter-spacing: 0em;
     color: var(--color-lightgrey);
@@ -666,17 +671,17 @@
 .box {
     border: 2px solid #DDDDDD;
     min-width: 200px !important;
-    height: 250px;
+    min-height: 300px;
     padding: 10px;
     border-radius: 10px;
-    overflow: auto;
+
 }
 
 .slick-para-3 {
     padding-top: 10px;
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
@@ -684,15 +689,15 @@
 }
 
 .slick-slide.slick-current div .box {
-    border: 2px solid #F53838;
+    border: 2px solid var(--color-red-f538);
 }
 
 .prev {
     height: 60px;
     width: 60px;
     border-radius: 50%;
-    border: 2px solid #F53838;
-    background: white;
+    border: 2px solid var(--color-red-f538);
+    background: var(--color-white);
     cursor: pointer;
     transition: all 200ms linear;
 }
@@ -701,28 +706,28 @@
     height: 60px;
     width: 60px;
     border-radius: 50%;
-    border: 2px solid #F53838;
-    background: white;
+    border: 2px solid var(--color-red-f538);
+    background: var(--color-white);
     cursor: pointer;
     transition: all 200ms linear;
 }
 
 .next:hover {
-    background-color: #F53838;
+    background-color: var(--color-red-f538);
 
 }
 
 .next:hover path {
-    fill: white;
+    fill: var(--color-white);
 }
 
 .prev:hover {
-    background-color: #F53838;
+    background-color: var(--color-red-f538);
 
 }
 
 .prev:hover path {
-    fill: white;
+    fill: var(--color-white);
 }
 
 .slick-dots li button:before {
@@ -787,27 +792,27 @@
 }
 
 .slick-box-heading {
-    font-family: Rubik;
+    font-family: "Rubik", sans-serif;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: var(--font-weight-md);
     line-height: 20px;
     letter-spacing: 0em;
     color: var(--color-darkblue);
 }
 
 .slick-box-address {
-    font-family: Rubik;
-    font-size: 14px;
-    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-sm);
     line-height: 20px;
     letter-spacing: 0em;
     color: var(--color-lightgrey);
 }
 
 .svg-no {
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
@@ -874,9 +879,9 @@
 }
 
 .s-box-heading {
-    font-family: Rubik;
-    font-size: 20px;
-    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-20);
+    font-weight: var(--font-weight-md);
     line-height: 32px;
     letter-spacing: 0em;
     text-align: left;
@@ -884,9 +889,9 @@
 }
 
 .s-box-para {
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
@@ -901,7 +906,7 @@
     border: 1px solid var(--color-red-f538);
     border-radius: 10px;
     box-shadow: rgb(162 6 6) 0px 22px 39px -19px, rgb(156 54 54 / 0%) 0px 30px 60px -30px;
-    font-family: Rubik;
+    font-family: "Rubik", sans-serif;
     font-size: var(--font-size-14);
     font-weight: var(--font-weight-xl);
     line-height: 25px;
@@ -930,7 +935,7 @@
 }
 
 .footer-vpn {
-    font-family: Rubik;
+    font-family: "Rubik", sans-serif;
     font-size: var(--font-size-20);
     font-weight: var(--font-weight-xl);
     line-height: 24px;
@@ -940,7 +945,7 @@
 }
 
 .footer-lasles {
-    font-family: Rubik;
+    font-family: "Rubik", sans-serif;
     font-size: var(--font-size-20);
     font-weight: var(--font-weight-md);
     line-height: 24px;
@@ -950,18 +955,18 @@
 }
 
 .footer-laslesvpn {
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-md);
     line-height: 30px;
     letter-spacing: 0em;
     color: var(--color-lightgrey);
 }
 
 .footer-para-1 {
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
@@ -969,27 +974,27 @@
 }
 
 .copyright {
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 30px;
     letter-spacing: 0em;
     color: var(--color-grey-AFB5);
 }
 
 .copyright-vpn {
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-md);
     line-height: 30px;
     letter-spacing: 0em;
     color: var(--color-grey-AFB5);
 }
 
 .footer-link-font-2 {
-    font-family: Rubik;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
@@ -997,9 +1002,9 @@
 }
 
 .footer-link-font-1 {
-    font-family: Rubik;
+    font-family: "Rubik", sans-serif;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: var(--font-weight-md);
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
@@ -1008,10 +1013,6 @@
 
 .md-flex-direction-col-reverse {
     flex-direction: column-reverse;
-}
-
-.sign-items {
-    display: none;
 }
 
 .py-20 {
@@ -1023,6 +1024,11 @@
     background: linear-gradient(0deg, rgba(248, 248, 248, 1) 50%, rgba(255, 255, 255, 1) 50%);
 }
 
+.sign-items {
+    display: none;
+}
+
+
 @media (min-width:1200px) {
 
     .overflow-img {
@@ -1030,10 +1036,14 @@
         right: -15%;
     }
 
+    .nav-padding-right-120 {
+        padding-right: 120px !important;
+    }
+
     .heading {
-        font-family: Rubik;
-        font-size: 50px !important;
-        font-weight: 500;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-50) !important;
+        font-weight: var(--font-weight-md);
         line-height: 70px;
         letter-spacing: 0em;
         text-align: left;
@@ -1041,9 +1051,9 @@
     }
 
     .laslesvpn-1 {
-        font-family: Rubik;
-        font-size: 50px !important;
-        font-weight: 700;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-50) !important;
+        font-weight: var(--font-weight-xl);
         line-height: 70px;
         letter-spacing: 0em;
         text-align: left;
@@ -1058,10 +1068,26 @@
         padding-left: 12px;
     }
 
+    .lg-mt-0 {
+        margin-top: 0;
+    }
+
+    .lg-w-33 {
+        width: 33.33% !important;
+    }
+
+    .nav-padding-right-120 {
+        padding-right: 80px;
+    }
+
+    .lg-d-none {
+        display: none;
+    }
+
     .s-box-heading {
-        font-family: Rubik;
-        font-size: 35px !important;
-        font-weight: 500;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-35) !important;
+        font-weight: var(--font-weight-md);
         line-height: 45px;
         letter-spacing: 0em;
         text-align: left;
@@ -1070,9 +1096,9 @@
     }
 
     .sec-3-font-1 {
-        font-family: Rubik;
-        font-size: 35px !important;
-        font-weight: 500;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-35) !important;
+        font-weight: var(--font-weight-md);
         line-height: 50px !important;
         letter-spacing: 0em;
         text-align: left;
@@ -1089,18 +1115,18 @@
     }
 
     .slick-box-heading {
-        font-family: Rubik;
-        font-size: 18px !important;
-        font-weight: 500;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-18) !important;
+        font-weight: var(--font-weight-md);
         line-height: 20px;
         letter-spacing: 0em;
         color: var(--color-darkblue);
     }
 
     .slick-box-address {
-        font-family: Rubik;
-        font-size: 14px !important;
-        font-weight: 400;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-14) !important;
+        font-weight: var(--font-weight-sm);
         line-height: 20px;
         letter-spacing: 0em;
         color: var(--color-lightgrey);
@@ -1108,9 +1134,9 @@
 
     .slick-para-3 {
         padding-top: 10px;
-        font-family: Rubik;
-        font-size: 16px !important;
-        font-weight: 400;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-16) !important;
+        font-weight: var(--font-weight-sm);
         line-height: 25px;
         letter-spacing: 0em;
         text-align: left;
@@ -1124,9 +1150,9 @@
     }
 
     .heading {
-        font-family: Rubik;
-        font-size: 40px;
-        font-weight: 500;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-40);
+        font-weight: var(--font-weight-md);
         line-height: 55px;
         letter-spacing: 0em;
         text-align: left;
@@ -1134,9 +1160,9 @@
     }
 
     .laslesvpn-1 {
-        font-family: Rubik;
-        font-size: 40px;
-        font-weight: 700;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-40);
+        font-weight: var(--font-weight-xl);
         line-height: 70px;
         letter-spacing: 0em;
         text-align: left;
@@ -1167,14 +1193,18 @@
         padding-left: 12px;
     }
 
+    .md-mt-0 {
+        margin-top: 0;
+    }
+
     .md-mb-90 {
         margin-bottom: 90px;
     }
 
     .sec-6-heading {
-        font-family: Rubik;
-        font-size: 35px;
-        font-weight: 500;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-35);
+        font-weight: var(--font-weight-md);
         line-height: 50px;
         letter-spacing: 0em;
         text-align: center;
@@ -1197,9 +1227,9 @@
     }
 
     .footer-para-1 {
-        font-family: Rubik;
-        font-size: 16px;
-        font-weight: 400;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-sm);
         line-height: 30px;
         letter-spacing: 0em;
         text-align: left;
@@ -1219,18 +1249,18 @@
     }
 
     .slick-box-heading {
-        font-family: Rubik;
-        font-size: 16px;
-        font-weight: 500;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-md);
         line-height: 20px;
         letter-spacing: 0em;
         color: var(--color-darkblue);
     }
 
     .slick-box-address {
-        font-family: Rubik;
+        font-family: "Rubik", sans-serif;
         font-size: 12px;
-        font-weight: 400;
+        font-weight: var(--font-weight-sm);
         line-height: 20px;
         letter-spacing: 0em;
         color: var(--color-lightgrey);
@@ -1238,9 +1268,9 @@
 
     .slick-para-3 {
         padding-top: 10px;
-        font-family: Rubik;
-        font-size: 14px;
-        font-weight: 400;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-14);
+        font-weight: var(--font-weight-sm);
         line-height: 25px;
         letter-spacing: 0em;
         text-align: left;
@@ -1257,14 +1287,10 @@
         flex-direction: unset;
     }
 
-    .sign-items {
-        display: flex;
-    }
-
     .sec-3-font-1 {
-        font-family: Rubik;
-        font-size: 30px;
-        font-weight: 500;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-30);
+        font-weight: var(--font-weight-md);
         line-height: 40px;
         letter-spacing: 0em;
         text-align: left;
@@ -1273,9 +1299,9 @@
     }
 
     .s-box-heading {
-        font-family: Rubik;
-        font-size: 30px;
-        font-weight: 500;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-30);
+        font-weight: var(--font-weight-md);
         line-height: 45px;
         letter-spacing: 0em;
         text-align: left;
@@ -1284,9 +1310,9 @@
     }
 
     .sec-5-heading {
-        font-family: Rubik;
+        font-family: "Rubik", sans-serif;
         font-size: 35px !important;
-        font-weight: 500;
+        font-weight: var(--font-weight-md);
         line-height: 50px !important;
         letter-spacing: 0em;
         text-align: center;
@@ -1304,6 +1330,14 @@
         padding-left: 12px;
     }
 
+    .sm-w-50 {
+        width: 50%;
+    }
+
+    .sm-mt-0 {
+        margin-top: 0;
+    }
+
     .sm-col-4 {
         width: 33.33%;
         padding-right: 12px;
@@ -1316,14 +1350,22 @@
         padding-left: 12px;
     }
 
+    .sign-items {
+        display: flex;
+    }
+
+    .sm-d-none {
+        display: none;
+    }
+
     .info-box-lite {
         width: unset;
     }
 
     .sec-6-para {
-        font-family: Rubik;
-        font-size: 16px;
-        font-weight: 400;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-sm);
         line-height: 30px;
         letter-spacing: 0em;
         text-align: center;
@@ -1334,9 +1376,9 @@
     }
 
     .sec-6-heading {
-        font-family: Rubik;
-        font-size: 25px;
-        font-weight: 500;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-25);
+        font-weight: var(--font-weight-md);
         line-height: 35px;
         letter-spacing: 0em;
         text-align: center;
@@ -1347,18 +1389,18 @@
     }
 
     .slick-box-heading {
-        font-family: Rubik;
-        font-size: 16px;
-        font-weight: 500;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-md);
         line-height: 20px;
         letter-spacing: 0em;
         color: var(--color-darkblue);
     }
 
     .slick-box-address {
-        font-family: Rubik;
+        font-family: "Rubik", sans-serif;
         font-size: 12px;
-        font-weight: 400;
+        font-weight: var(--font-weight-sm);
         line-height: 20px;
         letter-spacing: 0em;
         color: var(--color-lightgrey);
@@ -1366,9 +1408,9 @@
 
     .slick-para-3 {
         padding-top: 10px;
-        font-family: Rubik;
-        font-size: 14px;
-        font-weight: 400;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-14);
+        font-weight: var(--font-weight-sm);
         line-height: 25px;
         letter-spacing: 0em;
         text-align: left;
@@ -1416,7 +1458,7 @@
         border: 1px solid var(--color-red-f538);
         border-radius: 10px;
         box-shadow: rgb(162 6 6) 0px 22px 39px -19px, rgb(156 54 54 / 0%) 0px 30px 60px -30px;
-        font-family: Rubik;
+        font-family: "Rubik", sans-serif;
         font-size: var(--font-size-16);
         font-weight: var(--font-weight-xl);
         line-height: 25px;
@@ -1432,7 +1474,7 @@
         border: 1px solid var(--color-red-f538);
         border-radius: 10px;
         box-shadow: rgb(162 6 6) 0px 22px 39px -19px, rgb(156 54 54 / 0%) 0px 30px 60px -30px;
-        font-family: Rubik;
+        font-family: "Rubik", sans-serif;
         font-size: var(--font-size-16);
         font-weight: var(--font-weight-xl);
         line-height: 25px;
@@ -1442,9 +1484,9 @@
     }
 
     .sec-5-heading {
-        font-family: Rubik;
-        font-size: 28px;
-        font-weight: 500;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-28);
+        font-weight: var(--font-weight-md);
         line-height: 35px;
         letter-spacing: 0em;
         text-align: center;
@@ -1455,9 +1497,9 @@
     }
 
     .sec-5-para-1 {
-        font-family: Rubik;
-        font-size: 14px;
-        font-weight: 400;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-sm);
         line-height: 30px;
         letter-spacing: 0em;
         text-align: center;
@@ -1472,13 +1514,9 @@
     .menubox {
         width: 30px;
         height: 25px;
-        position: absolute;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        top: 50%;
-        left: 50%;
-        transform: translateY(-50%);
         z-index: 7;
     }
 
@@ -1508,10 +1546,22 @@
         left: 0;
     }
 
+    .lg-nav-flex-direction-colmn {
+        flex-direction: column;
+    }
+
+    .lg-nav-gap-40 {
+        gap: 40px;
+    }
+
+    .plan-box-mt-20 {
+        margin-top: 20px;
+    }
+
     .heading {
-        font-family: Rubik;
-        font-size: 30px;
-        font-weight: 500;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-30);
+        font-weight: var(--font-weight-md);
         line-height: 55px;
         letter-spacing: 0em;
         text-align: left;
@@ -1519,9 +1569,9 @@
     }
 
     .laslesvpn-1 {
-        font-family: Rubik;
-        font-size: 30px;
-        font-weight: 700;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-30);
+        font-weight: var(--font-weight-xl);
         line-height: 70px;
         letter-spacing: 0em;
         text-align: left;
@@ -1530,13 +1580,10 @@
 }
 
 @media (max-width : 767.9px) {
-    .md-w-50 {
-        width: 50%;
-    }
 
-    .menubox {
-        right: 4%;
-        left: unset;
+
+    .subscriptionbox-justify-content-center {
+        justify-content: center;
     }
 
     .border-right-2 {
@@ -1544,9 +1591,9 @@
     }
 
     .heading {
-        font-family: Rubik;
-        font-size: 40px;
-        font-weight: 500;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-40);
+        font-weight: var(--font-weight-md);
         line-height: 55px;
         letter-spacing: 0em;
         text-align: left;
@@ -1554,24 +1601,17 @@
     }
 
     .laslesvpn-1 {
-        font-family: Rubik;
-        font-size: 40px;
-        font-weight: 700;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-40);
+        font-weight: var(--font-weight-xl);
         line-height: 70px;
         letter-spacing: 0em;
         text-align: left;
         color: var(--color-darkblue);
     }
-
-    .md-mt-20 {
-        margin-top: 20px;
-    }
 }
 
 @media (max-width : 576px) {
-    .sm-w-100 {
-        width: 100%;
-    }
 
     .border-right-1 {
         border: unset;
@@ -1597,9 +1637,9 @@
     }
 
     .heading {
-        font-family: Rubik;
-        font-size: 25px;
-        font-weight: 500;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-25);
+        font-weight: var(--font-weight-md);
         line-height: 35px;
         letter-spacing: 0em;
         text-align: left;
@@ -1607,9 +1647,9 @@
     }
 
     .laslesvpn-1 {
-        font-family: Rubik;
-        font-size: 25px;
-        font-weight: 700;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-25);
+        font-weight: var(--font-weight-xl);
         line-height: 40px;
         letter-spacing: 0em;
         text-align: left;
@@ -1617,9 +1657,9 @@
     }
 
     .sec-3-font-1 {
-        font-family: Rubik;
-        font-size: 24px;
-        font-weight: 500;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-24);
+        font-weight: var(--font-weight-md);
         line-height: 45px;
         letter-spacing: 0em;
         text-align: left;
@@ -1628,16 +1668,13 @@
     }
 
     .sec-3-font-2 {
-        font-family: Rubik;
-        font-size: 14px;
-        font-weight: 400;
+        font-family: "Rubik", sans-serif;
+        font-size: var(--font-size-14);
+        font-weight: var(--font-weight-sm);
         line-height: 30px;
         letter-spacing: 0em;
         text-align: left;
         color: var(--color-lightgrey);
     }
 
-    .sm-mt-20 {
-        margin-top: 20px;
-    }
 }
