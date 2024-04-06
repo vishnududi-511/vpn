@@ -6,6 +6,8 @@ $('.sliderbox').slick({
     prevArrow: ".prev",
     slidesToShow: 2,
     slidesToScroll: 1,
+    centerMode: true,
+    centerPadding: '0%',
     autoplay: false,
     infinite: true,
     responsive: [
@@ -30,7 +32,7 @@ $('.sliderbox').slick({
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                autoplay: true,
+                // autoplay: true,
                 autoplaySpeed: 2000,
             }
         }
